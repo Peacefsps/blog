@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&family=Roboto:wght@400;700&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Figtree;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  background-color: hsl(47, 88%, 63%);
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  max-height: 100vh;
 }
-
-.App-link {
-  color: #61dafb;
+.App {
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 370px;
+  background-color: hsl(0, 0%, 100%);
+  margin-top: 24px;
+  box-shadow: 10px 10px black;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.illustration {
+  text-align: center;
+}
+.button-el {
+  padding: 12px 14px;
+  color: black;
+  border-radius: 6px;
+  margin: 10px 0;
+  background-color: hsl(47, 88%, 63%);
+  border: none;
+  font-weight: 800;
+}
+.para {
+  color: black;
+}
+h1 {
+  margin: 10px 0;
+  font-size: 24px;
+  font-weight: 800;
+}
+h1:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+p {
+  color: hsl(0, 0%, 50%);
+  word-spacing: 2px;
+  font-size: 16px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+}
+small {
+  color: black;
+  margin-left: 6px;
+  font-weight: bold;
 }

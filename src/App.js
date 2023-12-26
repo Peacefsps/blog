@@ -1,10 +1,10 @@
 import './App.css';
-import illustration from './illustration.svg'
-import avatar from './avatar.webp'
+import illustration from './illustration.svg';
+import avatar from './avatar.webp';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <div>
         <img src={illustration} alt="Illustration article" className='illustration'/>
       </div>
